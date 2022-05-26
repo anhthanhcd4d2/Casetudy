@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 15px;
+}
+body{
+    box-sizing: border-box;
+    width:100vw;
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+}
+div#div_directional{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   text-align: center;
+    align-items: center;
+    background-color: rgb(17, 16, 16);
+    font-size: 15.75px;
+    font-family: "Times New Roman", sans-serif ;
+    color: #000;
+    height: 141.35px;
+    box-sizing: border-box;
+}
+div#clear{
+    clear: inherit;
+}
+div#div_directional>div#img_directional{
+    float: left;
+    height: 141.35px;
+    width: calc(100%/4);
+    margin-right: calc(100%/4);
+
+}
+div#div_directional>div#img_directional>img{
+    width: 100%;
+    height: 100%;
+}
+div#div_directional>div#login_directional{
+    width: calc(100%/4);
+    height: 141.35px;
+    background-color: rgba(18,18,20,0.4);
+    padding: 58px 0;
+    box-sizing: border-box;
+}
+div#div_directional>div#newUse_directional {
+    width: calc(100% / 4);
+    height: 141.35px;
+    padding: 57px 0;
+    background-color: rgba(18,18,20,0.4);
+    box-sizing: border-box;
+}
+div#div_directional>div#login_directional>span{
+    color: rgb(255,255,255);
+    padding: 40px 55px;
+
+
+}
+div#div_directional>div#newUse_directional>span{
+    color: rgb(255,255,255);
+    padding: 40px 60px;
+}
+div#div_directional>div#newUse_directional>span:hover{
+    background-color: rgb(88,85,85);
+    border: 1px royalblue solid;
+    color: rgb(255,255,255);
+    border-radius: 32px;
+}
+div#div_directional>div#login_directional>span:hover{
+    background-color: rgb(88,85,85);
+    color: rgb(255,255,255);
+    border: 1px royalblue solid;
+    border-radius: 32px;
+}
+/*content*/
+div#connten{
+    width: 100vw;
+    background-color: rgb(248,249,250);
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+div#connten>div#show_text_input_add_sp{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+div#posion_obsolu_img{
+    width: 100%;
+}
+img#img_input_sp{
+    width: 100vw;
+    position: absolute;
+    box-sizing: border-box;
+    max-height: 1000px;
+}
+div#connten>div#show_text_input_add_sp>button{
+    position: relative;
+    width: calc(100%/6);
+    line-height: 30px;
+}
+#input_vlue{
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#show_list_sp, #toi4, .texxt{
+    position: relative;
+}
+div#show_list_conten{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*tavble input value*/
+th{
+    display: none;
+}
+div#input_vlue>table#addSp>{
+    width: 100%;
+    margin:0 auto;
+}
+div#input_vlue>table#addSp>thead{
+    width: 100%;
+}
+div#input_vlue>table#addSp>thead>tr{
+    width: 100%;
+}
+div#input_vlue>table#addSp>thead>tr>td{
+    width: 150px;
+    text-align: center;
+    line-height: 37px;
+    box-sizing: border-box;
+}
+div#input_vlue>table#addSp>thead>tr>td>button{
+    width: 100%;
+    line-height: 37px;
+}
+:root{
+    ---height---: 30px;
+}
+div#input_vlue>table#addSp>tbody{
+    width: 100%;
+}
+div#input_vlue>table#addSp>tbody>tr{
+    width: 100%;
+}
+div#input_vlue>table#addSp>tbody>td{
+    max-width: 150px;
+}
+div#input_vlue>table#addSp>tbody>tr>td>input{
+    width: 100%;
+   height:var(---height---);
+
+}
+/*table show sp*/
+div#show_list_conten>div#show_list_sp{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#input_vlue>table>tbody>tr>td>button{
+    width: 100%;
+    height:var(---height---);
+}
+div#show_list_conten>div#show_list_sp>table>tbody>tr{
+    width: 100%;
+    height:var(---height---);
+}
+div#show_list_conten>div#show_list_sp>table>tbody>tr>td{
+    width: 110px;
+    text-align: center;
+    height:var(---height---);
+}
+div#show_list_conten>div#show_list_sp>table>tbody>tr>td>input{
+   width: 100%;
+    height:var(---height---);
+}
+div#show_list_conten>div#show_list_sp>table>tbody>tr>td>button{
+    width: 100%;
+    height:var(---height---);
+
+}
+a{
+    text-decoration: none;
+}
+div#div_directional{
+    position: fixed;
+    top: 0;
+z-index: 1;
+}
+div#posion_obsolu_img , div#connten{
+    margin-top: 140px;
+}
+#div_video{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+div#div_video>video.video{
+    width:430px;
+    height: 230px;
+    margin-right: 50px;
+}

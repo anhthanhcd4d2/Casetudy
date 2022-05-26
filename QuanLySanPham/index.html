@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quan LY San Pham</title>
+    <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="stylesheet" href="Css/style2.css">
+</head>
+<body>
+<div id="div_directional" >
+    <div id="img_directional"><img src="img/thiet-ke-logo.jpg" alt="Logo"></div>
+    <div id="login_directional"><span>Đăng Nhập</span></div>
+    <div id="newUse_directional"><span id="test-dx">Đăng Xuất</span></div>
+    <div id="clear"></div>
+</div>
+<hr>
+<div id="posion_obsolu_img">
+    <img src="./img/wood-1866667_960_720.jpg" alt="nen" id="img_input_sp">
+</div>
+<div id="connten">
+    <div id="show_text_input_add_sp">
+        <button id="x"  value="false" onclick="showNewSpPhone(this.id)" type="button">Thêm Sản Phẩm Điện Thoại</button>
+        <button id="x1" value="false" onclick="showNewSpComputer(this.id)" type="button">Thêm Sản Phẩm Máy Tính</button>
+        <button id="x2" value="false" onclick="showNewSpRefrigeration(this.id)" type="button">Thêm Sản Phẩm Điện Lạnh</button>
+        <button id="x3" value="false" onclick="showNewSpElectronicClock(this.id)" type="button">Thêm Sản Phẩm Đồng Hồ Điện Tử</button>
+        <button id="x4" value="false" onclick="showNewSpAccessory(this.id)" type="button">Thêm Sản Phẩm Phụ Kiện</button>
+        <button id="x5" value="false" onclick="showNewSpOther(this.id)" type="button">Thêm Sản Phẩm Khác</button>
+    </div>
+    <div id="input_vlue"></div>
+    <div id="show_list_conten">
+        <div class="texxt"><h2>Bảng Danh Sách Sản Phẩm Nhập Kho</h2></div>
+        <div  id="show_list_sp"></div>
+        <div class="texxt" id="toi4"></div>
+    </div>
+</div>
+<div id="div_video">
+<!--    <video class="video"   controls>"></video>-->
+<!--    <video class="video"   src="video/damcuoinha.mp4"  controls>"></video>-->
+<!--    <video class="video"   src="video/remix.mp4" autoplay="autoplay" controls>"></video>-->
+<!--    <video class="video"   src="video/yeulacuoi.mp4"   controls>"></video>-->
+
+</div>
+
+<div id="from-Use">
+    <div id="conten-login">
+        <div id="login-registration">
+            <button id="useName-dk"> Đăng Ký </button>
+            <button id="login"> Đăng Nhập</button>
+        </div>
+        <br>
+        <br>
+        <h1 id="text-conten">Đăng Nhập</h1>
+        <div id="input-text">
+            <span>Tài Khoản</span>
+            <label name="text-name">
+                <input id="1" name="text-name" type="text">
+            </label>
+            <br>
+            <br>
+            <span> Mật Khẩu: </span>
+            <label name="text-password">
+                <input id="2" name="text-password" type="password">
+            </label>
+        </div>
+    </div>
+</div>
+<script src="javascript/Main2.js"></script>
+<script src="javascript/PhuongThuc/delete_sp.js"></script>
+<script src="javascript/PhuongThuc/show_objcets.js"></script>
+<script src="javascript/PhuongThuc/addSanPham.js"></script>
+<script src="javascript/PhuongThuc/editSp.js"></script>
+<script src="javascript/class/SanPham.js"></script>
+<script src="javascript/PhuongThuc/searchSp.js"></script>
+<script src="javascript/PhuongThuc/login.js"></script>
+
+</body>
+
+</html>
